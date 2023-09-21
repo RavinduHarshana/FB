@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+:root {
+    --background: #f0f2f5;
+    --primary-color: #1877f2;
+    --btn-color: #42b72a;
+
+
+}
+
+.smain {
+    background-color: var(--background);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-around;
+}
+
+.head {
+    top: 1%;
+    position: relative;
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 25px;
+}
+
+
+.right {
+    width: 40%;
+
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 4px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+input {
+    border-radius: 5px;
+    border: .5px solid gainsboro;
+    height: 2.75rem;
+    padding: .25rem 1rem;
+    font-size: 15px;
+
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    height: 2.75rem;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.login {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.fgot {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: smaller;
+    padding: .5rem;
+
+}
+
+.Newbtn {
+    margin-top: 2rem;
+    background-color: var(--btn-color);
+    color: white;
+    width: 40%;
+    font-size: 15px;
+
+}
